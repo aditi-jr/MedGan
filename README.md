@@ -100,9 +100,3 @@ For inquiries or collaboration opportunities, please feel free to reach out thro
 ---
 
 ``` 
-
-### Adjustments Made:
-1. Consolidated the sections to make them flow better.
-2. Removed redundant section breaks to create a seamless read.
-3. Unified tone and structure for better readability.  
-This version should be easier to read and navigate!
