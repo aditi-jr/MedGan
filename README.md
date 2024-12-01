@@ -27,9 +27,6 @@ The repository includes the following GAN architectures:
   [Paper](https://arxiv.org/abs/1701.07875)  
   Improves training stability through the Wasserstein distance metric.
 
-- **CycleGAN:**  
-  [Paper](https://arxiv.org/abs/1703.10593)  
-  Focuses on image-to-image translation with cycle consistency for domain adaptation.
 
 ---
 
