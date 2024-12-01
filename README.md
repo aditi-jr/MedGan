@@ -1,6 +1,4 @@
-Here’s the improved and cohesive **README.md** file, making it more streamlined and unified:
 
-```markdown
 # MedGAN: Medical Image Generation with GANs
 
 MedGAN is a collection of implementations of Generative Adversarial Networks (GANs) designed for generating medical images, with a focus on brain tumor MRI scans. This repository includes state-of-the-art GAN architectures optimized for high-quality, diverse, and stable image generation.
