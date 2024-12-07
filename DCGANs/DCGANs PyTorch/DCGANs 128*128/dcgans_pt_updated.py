@@ -269,7 +269,7 @@ with open('generator_model.pkl', 'wb') as f:
 
 # Download the saved model files
 from google.colab import files
-files.download('generator_model.h5')
+files.download('generator_model.pth')
 files.download('generator_model.pkl')
 
 # prompt: generate new 50 images and load it into new file its name is new
