@@ -1,6 +1,6 @@
 # MedGAN: Advanced Medical Image Generation
 
-![MedGAN Logo](static/css/Blue_ABstract_Brain_Technology_Logo__1_-removebg-preview.png)
+<img src="static/css/Blue_ABstract_Brain_Technology_Logo__1_-removebg-preview.png" alt="medgan Logo" width="120" style="margin-bottom: 20px;">
 
 ## Overview
 
