@@ -1,3 +1,5 @@
+[![CI](https://github.com/mozaloom/medgan/actions/workflows/main.yml/badge.svg)](https://github.com/mozaloom/medgan/actions/workflows/main.yml)
+
 # MedGAN: Advanced Medical Image Generation
 
 <img src="static/css/Blue_ABstract_Brain_Technology_Logo__1_-removebg-preview.png" alt="medgan Logo" width="120" style="margin-bottom: 20px;">
