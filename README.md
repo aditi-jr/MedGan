@@ -1,4 +1,5 @@
 [![CI](https://github.com/mozaloom/medgan/actions/workflows/main.yml/badge.svg)](https://github.com/mozaloom/medgan/actions/workflows/main.yml)
+[![Docker Image CI](https://github.com/mozaloom/medgan/actions/workflows/push-docker.yml/badge.svg)](https://github.com/mozaloom/medgan/actions/workflows/push-docker.yml)
 
 # MedGAN: Advanced Medical Image Generation
 
