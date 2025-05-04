@@ -4,7 +4,7 @@ install:
 
 test:
 	python -m pytest -vv test_*.py 
-	python -m pytest --nbval notebooks/*.ipynb
+	python -m pytest --nbval notebooks/*/*.ipynb
 
 format:
 	black *.py 
