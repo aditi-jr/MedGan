@@ -1,14 +1,14 @@
-from flask import Flask, request, jsonify, render_template, send_file
-import torch
-import io
-import zipfile
-import base64
-from DCGAN import Generator_DCGAN, generate_examples_DCGAN
-from ProGAN import Generator_ProGAN, generate_examples_ProGAN, seed_everything
-from StyleGAN2 import Generator_SG2, MappingNetwork, generate_examples_SG2
-from TumorDetectionApp import TumorDetectionApp
 import os
-from WGAN import Generator_WGAN, generate_examples_WGAN
+import io
+import torch
+import base64
+import zipfile
+from flask import Flask, request, jsonify, render_template, send_file
+from medgan.DCGAN import Generator_DCGAN, generate_examples_DCGAN
+from medgan.ProGAN import Generator_ProGAN, generate_examples_ProGAN, seed_everything
+from medgan.StyleGAN2 import Generator_SG2, MappingNetwork, generate_examples_SG2
+from medgan.TumorDetectionApp import TumorDetectionApp
+from medgan.WGAN import Generator_WGAN, generate_examples_WGAN
 
 # Initialize Flask app
 app = Flask(__name__)
