@@ -26,35 +26,36 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # Model paths
 model_paths = {
     "DCGAN": {
-        "Glioma": "Models\DCGAN-Glioma.pth",
-        "Pituitary": "Models\DCGAN-Meningioma.pth",
-        "Meningioma": "Models\DCGAN-Pituitary.pth",
+        "Glioma": "models/DCGAN-Glioma.pth",
+        "Pituitary": "models/DCGAN-Meningioma.pth",
+        "Meningioma": "models/DCGAN-Pituitary.pth",
     },
     "ProGAN": {
-        "Glioma": "Models\ProGAN-Glioma.pth",
-        "Meningioma": "Models\ProGAN-Meningioma.pth",
-        "Pituitary": "Models\ProGAN-Pituitary.pth",
+        "Glioma": "models/ProGAN-Glioma.pth",
+        "Meningioma": "models/ProGAN-Meningioma.pth",
+        "Pituitary": "models/ProGAN-Pituitary.pth",
     },
     "StyleGAN2": {
         "Glioma": {
-            "generator": "Models\StyleGAN2-Glioma.pth",
-            "mapping": "Models\StyleGAN2-Glioma-MappingNet.pth"
+            "generator": "models/StyleGAN2-Glioma.pth",
+            "mapping": "models/StyleGAN2-Glioma-MappingNet.pth"
         },
         "Meningioma": {
-            "generator": "Models\StyleGAN2-Meningioma.pth",
-            "mapping": "Models\StyleGAN2-Meningioma-MappingNet.pth"
+            "generator": "models/StyleGAN2-Meningioma.pth",
+            "mapping": "models/StyleGAN2-Meningioma-MappingNet.pth"
         },
         "Pituitary": {
-            "generator": "Models\StyleGAN2-Pituitary.pth",
-            "mapping": "Models\StyleGAN2-Pituitary-MappingNet.pth"
+            "generator": "models/StyleGAN2-Pituitary.pth",
+            "mapping": "models/StyleGAN2-Pituitary-MappingNet.pth"
         },
     },
     "WGANs": {
-        "Glioma": "Models\WGAN-Glioma.pth",
-        "Meningioma": "Models\WGAN-Pituitary.pth",
-        "Pituitary": "Models\WGAN-Pituitary.pth",
+        "Glioma": "models/WGAN-Glioma.pth",
+        "Meningioma": "models/WGAN-Pituitary.pth",
+        "Pituitary": "models/WGAN-Pituitary.pth",
     }
 }
+
 
 # Load DCGAN models
 dcgan_generators = {}
