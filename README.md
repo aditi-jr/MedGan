@@ -88,11 +88,11 @@ Check the individual model implementation files for specific training parameters
 medgan/
 ├── app.py                   # Flask web application
 ├── medgan/                  # Core GAN implementations
-│   ├── DCGAN.py
-│   ├── ProGAN.py
-│   ├── StyleGAN2.py
-│   ├── WGAN.py
-│   └── TumorDetectionApp.py
+│   ├── dcgan.py
+│   ├── progan.py
+│   ├── stylegan.py
+│   ├── wgan.py
+│   └── vit.py
 ├── models/                  # Pre-trained model weights
 ├── notebooks/               # Training notebooks
 │   ├── dcgan/
