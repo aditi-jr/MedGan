@@ -1,8 +1,8 @@
 import torch
-import torchvision.transforms as transforms
-from PIL import Image
 import torchvision
+import torchvision.transforms as transforms
 
+from PIL import Image
 
 class TumorDetectionApp:
     def __init__(self, model_path, device):

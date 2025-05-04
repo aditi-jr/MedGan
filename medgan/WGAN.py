@@ -1,16 +1,9 @@
+import io
 import torch
 import base64
-import io
+import torch.nn as nn
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from PIL import Image
-import numpy as np
-import torch.nn as nn
-import torch
-import torch.nn as nn
-import numpy as np
-from PIL import Image
-
 
 class Generator_WGAN(nn.Module):
     def __init__(self, z_dim=256, img_channels=1, features_g=32):

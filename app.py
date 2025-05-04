@@ -191,7 +191,7 @@ def download_zip():
 def detect():
     try:
         # Define paths and device
-        model_path = r"C:\Users\mzlwm\OneDrive\Desktop\MEDGAN\ViT\vit-35-Epochs-92-NTP-model.pth"
+        model_path = "models/vit-35-Epochs-92-NTP-model.pth"
         DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         # Get the uploaded file

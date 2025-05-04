@@ -1,23 +1,14 @@
-import torch
-import random
-from torch import nn
-from torchvision import datasets, transforms
-import torch.nn.functional as F
-from torch.utils.data import DataLoader
-from torchvision.utils import save_image
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-import streamlit as st
-import zipfile
-from io import BytesIO
-from streamlit_super_slider import st_slider
-from streamlit_option_menu import option_menu
-from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import JSONResponse
-import torch
+# Standard library imports
 import base64
 import io
+import os
+import random
+
+# Third-party imports
+import numpy as np
+import torch
+import torch.nn.functional as F
+from torch import nn
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 

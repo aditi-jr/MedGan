@@ -1,20 +1,20 @@
-import torch
-import random
-from torch import nn
-from torchvision import datasets, transforms
-import torch.nn.functional as F
-from torch.utils.data import DataLoader
-from torchvision.utils import save_image
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-import streamlit as st
-import zipfile
-from io import BytesIO
-from math import sqrt
+# Standard library imports
 import base64
 import io
+import os
+import random
+from math import sqrt
+
+# Third-party imports
+import numpy as np
+import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+
+# PyTorch imports
+import torch
+import torch.nn.functional as F
+from torch import nn
+from torchvision.utils import save_image
 
 
 
