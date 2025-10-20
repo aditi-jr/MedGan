@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![CI](https://github.com/mozaloom/medgan/actions/workflows/main.yml/badge.svg)](https://github.com/mozaloom/medgan/actions/workflows/main.yml)
 [![Docker Image CI](https://github.com/mozaloom/medgan/actions/workflows/push-docker.yml/badge.svg)](https://github.com/mozaloom/medgan/actions/workflows/push-docker.yml)
 
@@ -125,3 +126,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   - [ProGAN](https://arxiv.org/abs/1710.10196)
   - [StyleGAN2](https://arxiv.org/abs/1912.04958)
   - [WGAN](https://arxiv.org/abs/1701.07875)
+=======
+# MedGan
+A framework for generating synthetic brain tumor MRIs using advanced GANs (StyleGAN2, ProGAN, WGAN). Includes a Flask web app for image generation and ViT-based tumor detection.
+>>>>>>> 66dc6b33731f9e02e5c83070dc75c034842be6b1
